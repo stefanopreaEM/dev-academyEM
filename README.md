@@ -49,7 +49,7 @@ ________________________________________________________________________________
     // implement getWordsWithCharacter function here
     // ...
 
-    console.log(wordsWithA); // ['bananas', 'tomatos, 'apples', 'mangos', 'pineapples']
+    console.log(wordsWithA); // ['bananas', 'tomatos, 'apples', 'pears', 'mangos', 'pineapples']
   ```
 
 
@@ -229,7 +229,7 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________
 
 
-6. Given a person object with the properties firstName and lastName, please do the following:
+6. Given a person object, please do the following:
   - Write a method called getFullName that returns the full name of the person.
   - Write a method that checks if the age of the person is greater than 18.
   - Write a method that gets the full adress of the person in a single string.
