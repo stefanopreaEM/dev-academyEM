@@ -1,6 +1,8 @@
 # JavaScript Practice Problems
 
-Arrays/Strings(easy):
+* Arrays/Strings(easy):
+
+
 1. Please write a function that takes an array of words and returns the length of the shortest word.
   ```
     const words = ['bananas', 'tomatos', 'apples', 'pears', 'kiwis', 'mangos', 'pineapples'];
@@ -10,6 +12,7 @@ Arrays/Strings(easy):
 
     console.log(shortestWordLength); // 5
   ```
+__________________________________________________________________________________________________________________
 
 
 2. Please write a function that takes an array of numbers and returns the largest (without using Math.max()) 
@@ -33,9 +36,10 @@ Arrays/Strings(easy):
 
   ```
 
-
   Hints:
    - You can loop through an array with a simple for loop, and keep track of the largest number you've seen so far in a variable.
+__________________________________________________________________________________________________________________
+
 
 3. Please write a function that takes an array of words and a character and returns each word that has that character present in another array.
   ```
@@ -51,6 +55,7 @@ Arrays/Strings(easy):
 
   Hints:
    - You can loop through an array with a simple for loop, and check each word to see if it contains the characte by using other for loop.
+__________________________________________________________________________________________________________________
 
 
 4. Please write a function that takes an array of words and inserts an asterisk (*) between each letter of each word.
@@ -65,9 +70,12 @@ Arrays/Strings(easy):
   ```
   Hints:
    - You can loop through an array with a simple for loop, and loop through each word to add the asterisk between each letter.
+__________________________________________________________________________________________________________________
 
 
-Arrays/Strings(medium) OPTIONAL:
+
+* Arrays/Strings(medium) OPTIONAL:
+
 5. Please write a function that takes an array of words and returns the number of vowels in the array.
   ```
     const words = ['bananas', 'tomatos', 'apples', 'pears', 'kiwis', 'mangos', 'pineapples'];
@@ -82,6 +90,8 @@ Arrays/Strings(medium) OPTIONAL:
    - You can loop through the words array with a simple for loop, and loop through each word to count the vowels.
    - You can check if a letter is a vowel by comparing it to a string of vowels: 'aeiou'.indexOf(letter) > -1 
    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
+__________________________________________________________________________________________________________________
+
 
 6. Please write a function that takes an array of words and returns the number of palindromes in the array.
   ```
@@ -99,10 +109,11 @@ Arrays/Strings(medium) OPTIONAL:
    - You can loop through the words array with a for...of.. loop, and check each word to see if it's a palindrome.
    - You can check a plaindrom by looping through the word and comparing the first letter to the last letter, the second letter to the second to last letter, and so on. If any of the letters don't match, it's not a palindrome.
    - And also write a helper function for checking if a word is a palindrome.
+__________________________________________________________________________________________________________________
 
 
 
-Objects(easy):
+* Objects(easy):
 
 1. Please write a function that takes an object and returns the sum of all the values in the object.
   ```
@@ -123,6 +134,7 @@ Objects(easy):
   ```
   Hints:
    - You can loop through an object with a for in loop, and add each value to a sum variable.
+__________________________________________________________________________________________________________________
 
 
 2. Please write a function that takes an object and returns all the keys in an array.
@@ -144,6 +156,7 @@ Objects(easy):
   ```
   Hints:
    - You can loop through an object with a for in loop, and add each key to an array.
+__________________________________________________________________________________________________________________
 
    
 3. Please write a function that takes an object and returns all the values in an array.
@@ -165,6 +178,7 @@ Objects(easy):
   ```
   Hints:
    - You can loop through an object with a for in loop, and add each value to an array.
+__________________________________________________________________________________________________________________
 
 
 4. Plese write an object with a method that returns the sum of all the values in the object.
@@ -185,7 +199,12 @@ Objects(easy):
   ```
   Hints:
    - You can loop through an object with a for..in.. loop, and add each value to a sum variable.
-   - You can use the this keyword to refer to the object inside the sum method.
+   - You can use the 'this' keyword to refer to the object inside the sum method.
+__________________________________________________________________________________________________________________
+
+
+
+* Objects(medium):
 
 5. Please write a function that takes an object and returns the number of values that are numbers.
   ```
@@ -207,6 +226,8 @@ Objects(easy):
   Hints:
    - You can loop through an object with a for..in.. loop, and check if each value is a number.
    - You can check if a value is a number by using the typeof operator: typeof value === 'number'
+__________________________________________________________________________________________________________________
+
 
 6. Given a person object with the properties firstName and lastName, please do the following:
   - Write a method called getFullName that returns the full name of the person.
